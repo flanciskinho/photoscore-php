@@ -7,7 +7,7 @@ The idea is to develop a very simple php web application in which you can use ph
 ## Building
 
 ```
-docker builder -t photoscore .
+docker build -t photoscore .
 ```
 
 ## Launch web app
