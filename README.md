@@ -7,11 +7,11 @@ The idea is to develop a very simple php web application in which you can use ph
 ## Building
 
 ```
-docker build -t photoscore .
+docker build -t flanciskinho/example-photoscore-php .
 ```
 
 ## Launch web app
 
 ```
-docker run -d --rm -p 80:80 photoscore
+docker run -d --rm -p 80:80 flanciskinho/example-photoscore-php
 ```
