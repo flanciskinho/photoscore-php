@@ -25,7 +25,7 @@
 
             <div class="mb-3">
               <label for="username" class="form-label">Username</label>
-              <input type="text" name="user" id="username" class="form-control" placeholder="Username" required="" autofocus="">
+              <input type="email" name="user" id="username" class="form-control" placeholder="Username" required="" autofocus="">
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
@@ -33,11 +33,11 @@
             </div>
             <div class="mb-3">
               <label for="clientKey" class="form-label">Client key</label>
-              <textarea name="client" id="clientKey" rows="2" cols="80" class="form-control" placeholder="Client key" required=""></textarea>
+              <input name="client" id="clientKey" class="form-control" placeholder="Client key" required="" />
             </div>
             <div class="mb-3">
               <label for="imageList" class="form-label">List of urls (each url must go on one line)</label>
-              <textarea name="images" id="imageList" rows="10" cols="80" class="form-control" placeholder="List of image urls" required=""></textarea>
+              <textarea name="images" id="imageList" rows="10" cols="80" class="form-control" placeholder="List of image urls &#10;(each url must go on one line)" required=""></textarea>
             </div>
 
             <div class="d-grid my-2">
@@ -47,9 +47,9 @@
 
           </form>
 
-          <div class="text-center">
+          <div class="text-center mb-5">
             <small>
-              Web server designed and implemented by <a href="https://scholar.google.es/citations?user=fpqbvcMAAAAJ">Fran Cedron</a>
+              Web server designed and implemented by <a href="https://github.com/flanciskinho/photoscore-php">Fran Cedron</a>
             </small>
           </div>
 
